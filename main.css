@@ -1,2 +1,55 @@
- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
- rel="stylesheet">
+.top {
+    flex-wrap: wrap;
+    padding-top: 55px;
+    gap: 20px;
+    width: 405px;
+    height: 172px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F7CC
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.Name {
+    display: flex;
+    width: 1920px;
+    height: 580px;
+    padding: 16px 0;
+    font-family: inter;
+    font-size: 14px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    align-items: center
+}
+
+.product {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 12px;
+
+}
+
+.product-item {
+    height: 580px;
+    width: calc(50% - 6px);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product-item {
+        width: 100%;
+
+    }
+}
