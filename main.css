@@ -38,7 +38,7 @@
 
 .product-item {
     height: 580px;
-    width: calc(50% - 6px);
+    width: calc(80% - 6px);
     background-size: cover;
     background-position: center;
 }
@@ -52,4 +52,13 @@
         width: 100%;
 
     }
+}
+
+.txt {
+    font-family: inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+
 }
