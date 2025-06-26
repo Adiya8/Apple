@@ -38,7 +38,7 @@
 
 .product-item {
     height: 580px;
-    width: calc(80% - 6px);
+    width: calc(50% - 6px);
     background-size: cover;
     background-position: center;
 }
@@ -60,5 +60,24 @@
     font-weight: 600;
     line-height: 44px;
     text-align: center;
+
+}
+
+.slides {
+    display: flex;
+    width: 3782px;
+    overflow: hidden;
+}
+
+.slide-container {
+    overflow: scroll;
+    scroll-snap-type: proximity;
+    scroll-snap-align: center;
+    width: 100%;
+}
+
+.slide {
+    box-sizing: border-box;
+    height: 668px;
 
 }
