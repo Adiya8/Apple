@@ -12,9 +12,7 @@
 </head>
 
 <body style="margin: 0; ">
-    <header
-        style="text-decoration: none; display: flex; width: 1920px; height: 44px; background-color: #F5F5F7CC;font-family: inter;font-size: 12px; justify-content: center; gap: 24px; align-items: center;margin: auto;">
-        <img src="Item → Link - Apple.png">
+    <header> <img src="Item → Link - Apple.png">
         <a class="link" href="#">Store</a>
         <a class="link" href="#">Mac</a>
         <a class="link" href="#">iPhone</a>
@@ -25,17 +23,17 @@
         <a class="link" href="#">Entertainment</a>
         <a class="link" href="#">Accessories</a>
         <a class="link" href="#">Support</a>
-        <img src="Item → Button - Search apple.com.png">
-        <img src="Item.png">
+        <button img src="Item → Button - Search apple.com.png">
+        </button>
+        <button img src="Item.png">
+        </button>
     </header>
-    <div
-        style="display: flex;width: 1920px;height: 52px; font-family: inter; font-size: 14px;justify-content: center;background-color: #FFFFFF;align-items: center;">
+    <bottomheader>
         We’re donating $5 to the Global Fund for every purchase made with Apple Pay at Apple. Through 12/8.
 
-    </div>
-    <div style="display: flex;width: 1920px;justify-content: center;">
-        <div
-            style="display: flex; background-image: url(Figure.png); width: 1920px; height: 692px;justify-content: center;background-size: cover;">
+    </bottomheader>
+    <main class="main-product">
+        <div class="main-product-item" style="background-image: url(Figure.png);">
             <div class="top">
                 <div>
 
@@ -55,82 +53,176 @@
 
                 </div>
             </div>
-            <div style="height: 692px; background-image: url(Background.png);">
 
-            </div>
         </div>
-    </div>
-    <div
-        style="display: flex; background-image: url(Background.png); width: 1920px; height: 692px;justify-content: center;background-size: cover; margin-top: 12px;">
-        <div class="top">
-            <div>
-
-                <h1 style="font-family: inter; font-size: 52px; margin: 0;">iPhone 16 </h1>
-                <p style="font-size: 24px; font-family: inter; text-align: center; ">
-                    Hello,
-                    Apple Intelligence.
-                </p>
-            </div>
-            <button
-                style="background-color: #FFFFFF; padding: 12px 20px; border-radius: 999px;border-color: transparent;font-family: inter; font-size: 16px;color: black;">Learn
-                more</button>
-            <button
-                style="background-color: transparent; padding: 12px 20px; border-radius: 999px;border-color: #FFFFFF;font-family: inter; font-size: 16px;color: #FFFFFF; border: solid 1px #FFFFFF;">Buy
-            </button>
-        </div>
-    </div>
-    <div
-        style="display: flex; justify-content: center; background-image: url(logo.png); width: 1920px; height: 692px;margin-top: 16px ; ">
-        <div style="display: flex;justify-content: center; width: 405px;height: 164px; align-self:last baseline;">
-            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-                <h1 style="font-family: inter; font-size: 52px; margin: 0;">Gift Magic</h1>
-                <p style="font-size: 24px; font-family: inter; text-align: center; ">
-                    Make their holiday wish come true.
-                </p>
+    </main>
+    <div class="main-product">
+        <div class="main-product-item" style="background-image: url(Background.png); margin-top: 12px;">
+            <div class="top">
                 <div>
 
-                    <button
-                        style="background-color: #0071E3; padding: 12px 20px; border-radius: 999px;border-color: transparent;font-family: inter; font-size: 16px;color: #FFFFFF;">Shop
-                        gifts</button>
+                    <h1 style="font-family: inter; font-size: 52px; margin: 0;">iPhone 16 </h1>
+                    <p style="font-size: 24px; font-family: inter; text-align: center; ">
+                        Hello,
+                        Apple Intelligence.
+                    </p>
                 </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="product-item"
-            style="background-image: url(product.png); text-align: center;padding-top: 58px; height: 580px;">
-            <img src="Heading 3.png">
-            <p style="font-family: inter; font-size: 18px;">Two sizes. Faster chip. Does it all.</p>
-            <div>
                 <button
-                    style="background-color: #0071E3; padding: 12px 20px; border-radius: 999px;border-color: transparent;font-family: inter; font-size: 16px;color: #FFFFFF;">Learn
+                    style="background-color: #FFFFFF; padding: 12px 20px; border-radius: 999px;border-color: transparent;font-family: inter; font-size: 16px;color: black;">Learn
                     more</button>
                 <button
-                    style="background-color: transparent; padding: 12px 20px; border-radius: 999px;border-color: #0071E3;font-family: inter; font-size: 16px;color: #2997FF;padding-top: 12px;">Buy
+                    style="background-color: transparent; padding: 12px 20px; border-radius: 999px;border-color: #FFFFFF;font-family: inter; font-size: 16px;color: #FFFFFF; border: solid 1px #FFFFFF;">Buy
                 </button>
             </div>
         </div>
-        <div class="product-item" style="background-image: url(airpod.png);; height: 580px;padding-top:58px;">
-            <div style="display: flex;justify-content: center;">
+    </div>
+    <div class="main-product">
+        <div class="main-product-item" style=" background-image: url(logo.png); margin-top: 16px ; ">
+            <div
+                style="display: flex;justify-content: center; width: 405px;height: 164px; align-self:last baseline;margin-bottom: 82px;">
+                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <h1 style="font-family: inter; font-size: 52px; margin: 0;">Gift Magic</h1>
+                    <p style="font-size: 24px; font-family: inter; text-align: center;">
+                        Make their holiday wish come true.
+                    </p>
+                    <div>
 
-                <h1 class="txt" style="color: white;display: flex;">AirPods
-                    Pro 2</h1>
+                        <button
+                            style="background-color: #0071E3; padding: 12px 20px; border-radius: 999px;border-color: transparent;font-family: inter; font-size: 16px;color: #FFFFFF;">Shop
+                            gifts</button>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="product-item" style="background-image: url(iwatch.png); height: 580p;"> </div>
-        <div class="product-item" style="background-image: url(mac.png); height: 580p"> </div>
-        <div class="product-item" style="background-image: url(cash.png); ;height: 580p"> </div>
-        <div class="product-item" style="background-image: url(card.png); height: 580x"> </div>
+        <div class="product">
+            <div class="product-item"
+                style="background-image: url(product.png); text-align: center;padding-top: 58px; height: 580px;">
+                <img src="Heading 3.png">
+                <p style="font-family: inter; font-size: 18px;">Two sizes. Faster chip. Does it all.</p>
+                <div>
+                    <button class="lbutton">Learn
+                        more</button>
+                    <button class="sbutton">Buy
+                    </button>
+                </div>
+            </div>
+            <div class="product-item" style="background-image: url(airpod.png);; height: 580px;padding-top:58px;">
+                <div class="container" style="padding-top: 380px;">
+                    <h1 class="txt" style="color: white;display: flex;">AirPods
+                        Pro 2</h1>
+                    <p class="small-txt" style="color: white;">
+                        Now with Hearing Aid feature.2
+                    </p>
+                    <div>
+                        <button class="lbutton"> Learn more</button>
+                        <button class="sbutton">Buy</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-item" style="background-image: url(iwatch.png); height: 580p;">
+                <div class="container ">
+
+
+
+
+                    <h1 class="txt "> <img src="Vector.png"> WATCH </h1>
+                    <h4 class="small-txt" style="margin: 0;">Series 10</h4>
+
+                    <p class="small-txt" style="padding-top:  10px ; padding-bottom:10px ; margin: 0;">Thinstant classic
+                    </p>
+
+                    <div>
+                        <button class="lbutton">Learn
+                            more</button>
+                        <button class="sbutton">Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item" style="background-image: url(mac.png); height: 580p">
+                <div class="container">
+                    <h1 class="txt">MacBook Air</h1>
+                    <p style="margin-top: 2px;" class="small-txt"> Lean. Mean. M3 machine.</p>
+                    <div>
+                        <button class="lbutton">Learn
+                            more</button>
+                        <button class="sbutton">Buy
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item" style="background-image: url(cash.png); ;height: 580p">
+                <div class="container">
+                    <div style=" width: 322px">
+                        <h1 class="txt"> <img src="Vector.png"> Trade in</h1>
+                        <p class="small-txt">Get $180–$650 in credit when you
+                            trade in iPhone 12 or higher.3</p>
+                        <button class="lbutton">Get your estimate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item" style="background-image: url(card.png); height: 580x">
+                <div class="container">
+                    <div style="width: 322px;">
+
+                        <h1 class="txt"> <img src="Vector.png"> Card</h1>
+                        <p class="small-txt">Get up to 3% Daily Cash back
+                            with every purchase.</p>
+
+                        <button class="lbutton">Learn
+                            more</button>
+                        <button class="sbutton">Apply now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <section class="slides-container">
         <div class="slides">
             <div class="slide">
 
+                <img src="baruun zurg.jpg">
+                <div class="slide-buttons">
 
+                    <button class="lbutton" style="background-color: white;color: black;">Stream Now</button> <span
+                        class="small-txt" style="color: white;padding-left: 20px;"> Comedy ·
+                        Will they make
+                        history…or fake
+                        it?</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="golzurg.jpg">
+                <div class="slide-buttons">
+
+                    <button class="lbutton" style="background-color: white;color: black;">Stream Now</button> <span
+                        class="small-txt" style="color: white;padding-left: 20px;"> Comedy ·
+                        Will they make
+                        history…or fake
+                        it?</span>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="zuun zurg.jpg">
+                <div class="slide-buttons">
+
+                    <button class="lbutton" style="background-color: white;color: black;">Stream Now</button> <span
+                        class="small-txt" style="color: white;padding-left: 20px;"> Comedy ·
+                        Will they make
+                        history…or fake
+                        it?</span>
+                </div>
             </div>
         </div>
+
     </section>
+    <div
+        style="border: 1px solid black;border-radius: 50%; width: 10px;height: 10px;background-color: black;display: flex;justify-content: center;align-items: center;align-self: center;">
+    </div>
 
 
 
