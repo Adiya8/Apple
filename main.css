@@ -30,6 +30,8 @@ header {
     margin: auto;
 }
 
+
+
 bottomheader {
     display: flex;
     max-width: 1920px;
@@ -96,6 +98,28 @@ header {
     background-repeat: no-repeat;
     text-align: center;
 
+
+}
+
+.dot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.dot {
+    border: 1 px solid #0000006B;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.42;
+
 }
 
 @media (max-width: 1920px) {
@@ -122,15 +146,15 @@ header {
 
     width: 100%;
     overflow-x: scroll;
-
-
+    scroll-behavior: none;
 }
 
 .slides {
     display: flex;
     scroll-snap-type: proximity;
     scroll-snap-align: center;
-    width: 3782px;
+
+    width: 3000px;
 }
 
 .slide {
@@ -139,6 +163,7 @@ header {
     width: 1250px;
     height: 692px;
     margin: 16px 12px;
+    aspect-ratio: 16 / 9;
 }
 
 .slide img {
@@ -198,4 +223,38 @@ header {
     color: #2997FF;
     padding-top: 12px;
     margin-left: 16px;
+}
+
+.upperbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.card {
+    aspect-ratio: 417 / 236;
+    width: 600px;
+    display: flex;
+    align-items: flex-end;
+    position: relative
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 417px;
+    height: 236px;
+    object-fit: cover;
+}
+
+.card-title {
+    position: absolute;
+    color: white;
+    font-family: inter;
+    bottom: 120px;
+    left: 20px;
 }
