@@ -116,6 +116,23 @@ header {
     margin: 0 12px;
     background-repeat: no-repeat;
     box-sizing: border-box;
+
+}
+
+.products {
+    width: auto;
+}
+
+@media (min-width: 1000px) {
+
+    .products {
+        display: none;
+    }
+
+    .product-ipad {
+        display: block;
+    }
+
 }
 
 .product:first-child {
@@ -152,7 +169,7 @@ header {
 }
 
 .product-airpods {
-    background-image: url(airpod.png);
+    background-image: url(airpod4.png);
     color: white;
     padding-bottom: 54px;
 }
@@ -168,7 +185,7 @@ header {
     width: 241px;
 }
 
-.product-bussiness {
+.product-business {
     background-image: url(bussiness.png);
 }
 
@@ -186,6 +203,20 @@ header {
 
 .product-deals {
     padding-bottom: 47px;
+    background-image: url(deals.png);
+}
+
+@media (max-width: 1000px) {
+    .slide {
+        display: none;
+        margin: 16px 0;
+    }
+}
+
+.main-body {
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: inter;
 }
 
 @media (max-width: 600px) {
