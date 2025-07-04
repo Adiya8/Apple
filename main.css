@@ -16,6 +16,14 @@
     color: black;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    background-color: #F5F5F7;
+}
+
 header {
     text-decoration: none;
     display: flex;
@@ -103,6 +111,7 @@ header {
         width: 44px;
         height: 31px;
     }
+
 }
 
 .product {
@@ -580,4 +589,64 @@ header {
     font-family: inter;
     bottom: 120px;
     left: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.title-text {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+
+    line-height: 52.01px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+    color: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    padding-bottom: 16px;
+    gap: 8px;
+
+}
+
+.support-link {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    text-decoration-skip-ink: auto;
+
+}
+
+.chat-head {
+    width: 48px;
+    height: 48px;
 }
